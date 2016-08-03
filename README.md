@@ -32,7 +32,7 @@ Download or clone this repository to your machine, extract it, save the folder i
 - Do not refresh your page anytime in middle of game. This will lead to end of the game.
 - Click the 'Start The Game' button to start the game. All the best!!!
 
-<b>Note - This game is purely developed for the purpose of learning ReactJS and at the same time, having fun.</b>
+<b>Note - This game is purely developed for the purpose of learning ReactJS and at the same time, having fun. It does not claim/promise any kind of prizes or rewards in any manner on winning/losing.</b>
 
 
 ## License
