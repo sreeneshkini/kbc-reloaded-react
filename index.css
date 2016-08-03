@@ -1,0 +1,153 @@
+body{
+	margin: 0 auto;
+	padding: 0;
+}
+.fourOptionButtons {
+  border: none;
+  background-color: white;
+  padding: 15px;
+  margin-bottom: 5px;
+  margin-right: 0px;
+	margin-left: 0px;
+  width: 100%;
+  border : 2px solid #3474DD;
+	border-radius: 30px;
+}
+.options{
+	color: #3474DD;
+	font-size: 14px;
+	font-weight : 700;
+}
+.optionCharacters{
+	color: #094F1D;
+	font-size: 14px;
+	font-weight : 700;
+}
+.questions{
+	color: #3474DD;
+	padding: 12px;
+	font-size: 16px;
+	border : 2px solid #3474DD;
+	border-top-left-radius: 20px;
+	border-top-right-radius: 20px;
+	font-weight : 700;
+}
+.questionAnswers{
+	position: relative;
+	top:15px;
+}
+.lifeLines{
+	background-color: #3474DD;
+	color : white;
+	border : 2px solid #1832C6;
+	border-radius: 30px;
+	display: inline-block;
+	padding: 12px;
+	margin-bottom: 10px;
+	margin-left: 3px;
+	margin-top: 5px;
+	width: 200px;
+	font-weight: 700;
+	font-size: 16px;
+}
+.lifeLines:disabled{
+	cursor: no-drop;
+}
+.lifeLines:hover:enabled{
+	background-color: #59A8FB;
+}
+.cashSet{
+	background-color: #4287FF;
+	padding: 6px;
+	border: 1px solid white;
+}
+.cashSet span{
+	color: white;
+	font-size: 14px;
+	font-weight: 700;
+	margin-left: 5px;
+}
+.confirmBox{
+	position: relative;
+	top: -270px;
+	left: 0px;
+	background-color: white;
+	border : 2px solid #1832C6;
+	padding: 15px;
+}
+.confirmBox button{
+	border-radius : 20px;
+	margin-left: 5px;
+	padding: 10px;
+}
+.confirmBox p{
+	font-size: 18px;
+	font-weight: 700px;
+}
+.startButton, .gameOver{
+	border-radius: 0px;
+	border: 2px solid #3474DD;
+	padding: 20px;
+	color : #3474DD;
+	margin-left: 0px;
+	margin-top: 20px;
+	font-weight: 700;
+	font-size: 20px;
+}
+.startButton:hover, .gameOver:hover{
+	border: 2px solid #387E30;
+	color : #387E30;
+	background-color: white;
+}
+.yesButton, .noButton{
+	width: 10%;
+}
+.title{
+	font-size: 55px;
+	font-weight: 700px;
+	color: #4287FF;
+	font-family: Impact, Charcoal, sans-serif;
+}
+.tag{
+	font-size: 25px;
+	font-weight: 700px;
+	color: #4287FF;
+}
+.messageDiv{
+	position: relative;
+	top:10px;
+	border: 1px dashed #05C149;
+	padding-top: 5px;
+	margin-bottom: 20px;
+}
+.messages{
+	font-size: 18px;
+	color: #387E30;
+	font-style: italic;
+	margin-top: 5px;
+	font-weight: 700;
+}
+.clock span{
+		font-size: 25px;
+		font-weight: 700;
+		color: white;
+}
+.clock{
+	border-radius: 50%;
+	background-color: #FD4444;
+	height: 70px;
+	width: 70px;
+	padding: 17px;
+}
+.gameScreenshot{
+	width: 100%;
+}
+.gameInstructions{
+	margin-top: 10px;
+}
+.gameInstructions ul li{
+	color: #387E30;
+	font-size: 14px;
+	font-weight: 700;
+	text-align: justify;
+}
